@@ -6,10 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.0"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0"/>
     <PackageReference Include="Telluria.Utils.Crud" Version="1.0.0"/>
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.354"/>
     <PackageReference Include="SonarAnalyzer.CSharp" Version="8.32.0.39516"/>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.0"/>
   </ItemGroup>
 </Project>

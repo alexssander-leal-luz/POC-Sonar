@@ -1,5 +1,6 @@
 using Estudos.BaltaIO.Tarefas.Data;
 using Microsoft.EntityFrameworkCore;
+using Telluria.Utils.Crud;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<DataContext>(options => options
   .UseMySql(connectionString, new MySqlServerVersion(version)));
 builder.Services.AddScoped<DbContext, DataContext>();
+builder.Services.AddCrud();
 
 // Controllers
 builder.Services.AddControllers();

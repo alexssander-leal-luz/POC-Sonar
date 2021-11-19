@@ -14,8 +14,6 @@ namespace Estudos.BaltaIO.Tarefas.Data.Mappings
       builder.ToTable("reg_publishers");
 
       builder.Property(p => p.Name).HasColumnName("name").HasColumnType("varchar(100)").IsRequired();
-
-      builder.HasMany(p => p.Books).WithOne().HasForeignKey(p => p.PublisherID).IsRequired();
     }
   }
 }

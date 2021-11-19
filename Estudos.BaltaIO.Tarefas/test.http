@@ -1,0 +1,8 @@
+###
+
+@idRead =
+
+GET http://localhost:5063/publishers/187d0054-0eac-448c-8b99-ead033999925?include=books HTTP/1.1
+Content-Type: application/json
+
+###

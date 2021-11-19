@@ -9,6 +9,7 @@
       "Estudos.BaltaIO.Tarefas/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.0",
           "SonarAnalyzer.CSharp": "8.32.0.39516",
           "StyleCop.Analyzers": "1.2.0-beta.354",

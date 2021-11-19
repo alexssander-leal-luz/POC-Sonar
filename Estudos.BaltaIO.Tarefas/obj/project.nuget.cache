@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W2GSvv+Fh86bqlcikCwD2dPg/jZ8GBbufUm3ePwv2YnGMGQrsq+NY754ORbLbmxlx+TbYOBesswZTtAm8upQKQ==",
+  "dgSpecHash": "fBjEwKO0GEPAnOyVTMvLkkHyC5dkgn1yHQ3KJsFA6Y+mrQLKLKapBykFqzpbAPo10HeXG6F+Ul4I8BPDaYV8vQ==",
   "success": true,
-  "projectFilePath": "/home/alex/Desktop/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/Crud Balta IO/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
+  "projectFilePath": "/home/alex/Desktop/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
   "expectedPackageFiles": [
     "/home/alex/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/home/alex/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512",
