@@ -20,7 +20,7 @@ namespace Estudos.BaltaIO.Tarefas.Data.Mappings
       builder.Property(p => p.Title).HasColumnName("title").HasColumnType("varchar(100)").IsRequired();
       builder.Property(p => p.PublisherId).HasColumnName("publisher_id");
 
-      // builder.HasOne(p => p.Publisher).WithMany().HasForeignKey(p => p.PublisherId);
+      builder.HasOne(p => p.Publisher).WithMany().HasForeignKey(p => p.PublisherId);
 
       builder.HasIndex(p => p.ISBN).IsUnique();
     }

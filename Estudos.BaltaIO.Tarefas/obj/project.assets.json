@@ -33,7 +33,7 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "LinqKit.Core/1.1.26": {
+      "LinqKit.Core/1.1.27": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/LinqKit.Core.dll": {}
@@ -1201,21 +1201,25 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Telluria.Utils.Crud/1.0.0": {
-        "type": "package",
+      "Estudos.BaltaIO.Crud/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Flunt": "2.0.5",
-          "LinqKit.Core": "1.1.26",
+          "LinqKit.Core": "1.1.27",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.11"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
         },
         "compile": {
-          "lib/net5.0/Telluria.Utils.Crud.dll": {}
+          "bin/placeholder/Estudos.BaltaIO.Crud.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Telluria.Utils.Crud.dll": {}
-        }
+          "bin/placeholder/Estudos.BaltaIO.Crud.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -1265,10 +1269,10 @@
         "logo.png"
       ]
     },
-    "LinqKit.Core/1.1.26": {
-      "sha512": "svSbON3rh4QVIeTK7sDO8OyC2lrhDGctnRPUMNPKVChMPY2v/x0DDtfBq7CWsWyuaYD00q5TxVKoZkW5+pqcXw==",
+    "LinqKit.Core/1.1.27": {
+      "sha512": "HjAlsomOjPLY/rI19MXLLxBdkbvxPCd3ZVpM/nOUEz/o/n9tSehV+amKQ2exAFvup+kbkNt7sJrXhVZnnzoGHA==",
       "type": "package",
-      "path": "linqkit.core/1.1.26",
+      "path": "linqkit.core/1.1.27",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1291,7 +1295,7 @@
         "lib/uap10.0.10240/LinqKit.Core.dll",
         "lib/uap10.0.10240/LinqKit.Core.pri",
         "lib/uap10.0.10240/LinqKit.Core.xml",
-        "linqkit.core.1.1.26.nupkg.sha512",
+        "linqkit.core.1.1.27.nupkg.sha512",
         "linqkit.core.nuspec"
       ]
     },
@@ -4390,27 +4394,19 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Telluria.Utils.Crud/1.0.0": {
-      "sha512": "bK6PKJLQv+45DEq3Y7ukdWQ+sQ1MZy50AubwJWC8G4qFzWJszVKGjN4B4ceIV5qJSz7m8YpBkMWraq4uEIMRog==",
-      "type": "package",
-      "path": "telluria.utils.crud/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net5.0/Telluria.Utils.Crud.dll",
-        "telluria.utils.crud.1.0.0.nupkg.sha512",
-        "telluria.utils.crud.nuspec"
-      ]
+    "Estudos.BaltaIO.Crud/1.0.0": {
+      "type": "project",
+      "path": "../Estudos.BaltaIO.Crud/Estudos.BaltaIO.Crud.csproj",
+      "msbuildProject": "../Estudos.BaltaIO.Crud/Estudos.BaltaIO.Crud.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Estudos.BaltaIO.Crud >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "Microsoft.EntityFrameworkCore.Relational >= 6.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.0",
       "SonarAnalyzer.CSharp >= 8.32.0.39516",
-      "StyleCop.Analyzers >= 1.2.0-beta.354",
-      "Telluria.Utils.Crud >= 1.0.0"
+      "StyleCop.Analyzers >= 1.2.0-beta.354"
     ]
   },
   "packageFolders": {
@@ -4419,11 +4415,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alex/Desktop/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
+      "projectUniqueName": "/home/alex/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
       "projectName": "Estudos.BaltaIO.Tarefas",
-      "projectPath": "/home/alex/Desktop/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
+      "projectPath": "/home/alex/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
       "packagesPath": "/home/alex/.nuget/packages/",
-      "outputPath": "/home/alex/Desktop/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/obj/",
+      "outputPath": "/home/alex/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/alex/.nuget/NuGet/NuGet.Config"
@@ -4437,7 +4433,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/alex/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Crud/Estudos.BaltaIO.Crud.csproj": {
+              "projectPath": "/home/alex/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Crud/Estudos.BaltaIO.Crud.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4454,10 +4454,6 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore.Relational": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -4471,10 +4467,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.2.0-beta.354, )"
-          },
-          "Telluria.Utils.Crud": {
-            "target": "Package",
-            "version": "[1.0.0, )"
           }
         },
         "imports": [

@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "XsaiBhGm3TSvQz80pMYGEaanh3I57C8WjmAk/ABSvAE=",
+  "Hash": "A/kBZOLBAU6yKfh1luHcpuBJoPk5jCCLNI76vDiQoZA=",
   "Source": "Estudos.BaltaIO.Tarefas",
   "BasePath": "_content/Estudos.BaltaIO.Tarefas",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/home/alex/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Crud/Estudos.BaltaIO.Crud.csproj",
+      "Version": 2,
+      "Source": "Estudos.BaltaIO.Crud",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

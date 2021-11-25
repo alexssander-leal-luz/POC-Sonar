@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fBjEwKO0GEPAnOyVTMvLkkHyC5dkgn1yHQ3KJsFA6Y+mrQLKLKapBykFqzpbAPo10HeXG6F+Ul4I8BPDaYV8vQ==",
+  "dgSpecHash": "A0KTCW+xFTNdj3au8ydgOv3vSaheZMHRxDOg8domvQtdmnmErmMac7BaFJgfjhvaJos4ZvuEh7JUKrnFZxNJlg==",
   "success": true,
-  "projectFilePath": "/home/alex/Desktop/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
+  "projectFilePath": "/home/alex/Trabalho/Desenvolvimento/Projetos (Telluria Tecnologia)/Estudos/POC - Sonar/Estudos.BaltaIO.Tarefas/Estudos.BaltaIO.Tarefas.csproj",
   "expectedPackageFiles": [
     "/home/alex/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/home/alex/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512",
     "/home/alex/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
-    "/home/alex/.nuget/packages/linqkit.core/1.1.26/linqkit.core.1.1.26.nupkg.sha512",
+    "/home/alex/.nuget/packages/linqkit.core/1.1.27/linqkit.core.1.1.27.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
@@ -92,8 +92,7 @@
     "/home/alex/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
     "/home/alex/.nuget/packages/system.threading.tasks.extensions/4.5.1/system.threading.tasks.extensions.4.5.1.nupkg.sha512",
     "/home/alex/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "/home/alex/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
-    "/home/alex/.nuget/packages/telluria.utils.crud/1.0.0/telluria.utils.crud.1.0.0.nupkg.sha512"
+    "/home/alex/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": []
 }

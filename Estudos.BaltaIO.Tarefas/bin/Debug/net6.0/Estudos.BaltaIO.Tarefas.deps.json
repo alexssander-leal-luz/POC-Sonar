@@ -8,12 +8,11 @@
     ".NETCoreApp,Version=v6.0": {
       "Estudos.BaltaIO.Tarefas/1.0.0": {
         "dependencies": {
+          "Estudos.BaltaIO.Crud": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.0",
           "SonarAnalyzer.CSharp": "8.32.0.39516",
-          "StyleCop.Analyzers": "1.2.0-beta.354",
-          "Telluria.Utils.Crud": "1.0.0"
+          "StyleCop.Analyzers": "1.2.0-beta.354"
         },
         "runtime": {
           "Estudos.BaltaIO.Tarefas.dll": {}
@@ -47,11 +46,11 @@
           }
         }
       },
-      "LinqKit.Core/1.1.26": {
+      "LinqKit.Core/1.1.27": {
         "runtime": {
           "lib/netstandard2.1/LinqKit.Core.dll": {
-            "assemblyVersion": "1.1.26.0",
-            "fileVersion": "1.1.26.0"
+            "assemblyVersion": "1.1.27.0",
+            "fileVersion": "1.1.27.0"
           }
         }
       },
@@ -697,19 +696,16 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "Telluria.Utils.Crud/1.0.0": {
+      "Estudos.BaltaIO.Crud/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Flunt": "2.0.5",
-          "LinqKit.Core": "1.1.26",
+          "LinqKit.Core": "1.1.27",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
         },
         "runtime": {
-          "lib/net5.0/Telluria.Utils.Crud.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Estudos.BaltaIO.Crud.dll": {}
         }
       }
     }
@@ -741,12 +737,12 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "LinqKit.Core/1.1.26": {
+    "LinqKit.Core/1.1.27": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-svSbON3rh4QVIeTK7sDO8OyC2lrhDGctnRPUMNPKVChMPY2v/x0DDtfBq7CWsWyuaYD00q5TxVKoZkW5+pqcXw==",
-      "path": "linqkit.core/1.1.26",
-      "hashPath": "linqkit.core.1.1.26.nupkg.sha512"
+      "sha512": "sha512-HjAlsomOjPLY/rI19MXLLxBdkbvxPCd3ZVpM/nOUEz/o/n9tSehV+amKQ2exAFvup+kbkNt7sJrXhVZnnzoGHA==",
+      "path": "linqkit.core/1.1.27",
+      "hashPath": "linqkit.core.1.1.27.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
@@ -1343,12 +1339,10 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "Telluria.Utils.Crud/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bK6PKJLQv+45DEq3Y7ukdWQ+sQ1MZy50AubwJWC8G4qFzWJszVKGjN4B4ceIV5qJSz7m8YpBkMWraq4uEIMRog==",
-      "path": "telluria.utils.crud/1.0.0",
-      "hashPath": "telluria.utils.crud.1.0.0.nupkg.sha512"
+    "Estudos.BaltaIO.Crud/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

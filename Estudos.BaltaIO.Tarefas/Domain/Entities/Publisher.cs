@@ -4,7 +4,10 @@ namespace Estudos.BaltaIO.Tarefas.Domain.Entities
 {
   public class Publisher : BaseEntity
   {
-    public Publisher() => Books = new List<Book>();
+    public Publisher()
+    {
+    }
+
     public Publisher(string name, ICollection<Book> books)
     {
       Name = name;
@@ -12,6 +15,6 @@ namespace Estudos.BaltaIO.Tarefas.Domain.Entities
     }
 
     public string? Name { get; set; }
-    public virtual ICollection<Book> Books { get; set; }
+    public virtual ICollection<Book>? Books { get; set; }
   }
 }

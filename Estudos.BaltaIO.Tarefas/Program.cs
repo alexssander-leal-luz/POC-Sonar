@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using Estudos.BaltaIO.Tarefas.Data;
 using Microsoft.EntityFrameworkCore;
 using Telluria.Utils.Crud;
@@ -24,7 +25,8 @@ builder.Services.AddScoped<DbContext, DataContext>();
 builder.Services.AddCrud();
 
 // Controllers
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+  options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 var app = builder.Build();
 

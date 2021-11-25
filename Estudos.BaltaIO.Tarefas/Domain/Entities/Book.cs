@@ -4,7 +4,11 @@ namespace Estudos.BaltaIO.Tarefas.Domain.Entities
 {
   public class Book : BaseEntity
   {
-    public Book() => Publisher = new Publisher();
+
+    public Book()
+    {
+    }
+
     public Book(string isbn, string title, string author, string language, int pages, Guid publisherId, Publisher publisher)
     {
       ISBN = isbn;
@@ -22,6 +26,6 @@ namespace Estudos.BaltaIO.Tarefas.Domain.Entities
     public string? Language { get; set; }
     public int Pages { get; set; }
     public Guid? PublisherId { get; set; }
-    public virtual Publisher Publisher { get; set; }
+    public virtual Publisher? Publisher { get; set; }
   }
 }
